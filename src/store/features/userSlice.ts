@@ -10,7 +10,7 @@ interface UserState {
 const initialState: UserState = {
     users: [],
     loading: false,
-    error: null,
+    error: "none",
 };
 
 const userSlice = createSlice({
